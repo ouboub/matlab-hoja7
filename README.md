@@ -1,3 +1,45 @@
+# Las siguientes reglas son obligatorias
+
+1.  El alumno encuentra  para cada práctica un documento en formato **mlx**
+
+2.  Tiene que bajar dicho fichero a su ordenador y ponerlo en una
+    carpeta: cada práctica en una carpeta.
+
+3.  Las carpetas y los ficheros no deben tener **espacio** ni
+    **acentos** ni **-**, (**\_** están permitidos).
+
+4.  Tiene que poner Nombre, Apellido y DNI en los campos correspondientes.
+
+5.  El alumno tiene que responder a los ejercicios poniendo los
+    comandos de matlab relevantes, en un campo, usando el comando
+    *insert code* (control+e). Siempre al principio del campo tiene que poner
+    
+    `disp('Hoja X: Ej Y Nombre y apellido')`
+
+6.  Cada campo tiene que terminar un un **section break** (Control+Alt+Enter).
+
+7.  El alumno tiene que implementar ciertos algoritmos, cuyo
+    pseudocódigo se encuentra en el CV. Dicha implementación debe
+    ser una **function** que tiene que **siempre** estar al final del
+    fichero mlx, en el apéndice. La sintaxis es algo así:
+    
+    `[t,y]=mieuler(f,intv,y0,N)`
+    
+    `end`
+    
+    El end al final es muy importante. También dicha función debe
+    tener
+    `disp('Hoja X: func: Euler Nombre y Apellido')`
+
+8.  El alumno tiene que entregar el fichero **mlx** pero también
+    salvar el fichero con la extensión **m** pero con el sufijo text,
+    por ejemplo: hoja7.mlx y hoja7<sub>text.m</sub>.
+
+9.  Las entregas de prácticas no cuentan para la nota pero, si el
+    alumno ha entregado prácticas a tiempo, las puede usar en el
+    examen. Si no entrega prácticas no puede llevar nada al examen.
+
+
 # Prácticas de Matlab (Distribución temporal de las hojas de Matlab)
 <table border="2" cellspacing="0" cellpadding="6" frame="border" rules="all">
 <colgroup>
